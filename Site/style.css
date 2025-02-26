@@ -26,7 +26,7 @@ body{
     border: 2px solid rgba(255, 255, 255, .2);
     border-radius: 10px;
     color: rgb(255, 255, 255);
-    padding: 30px 40px;
+    padding: 30px 30px;
     box-shadow: rgba(255, 253, 253, 0.16) 0px 10px 36px 0px, rgba(255, 255, 255, 0.06) 0px 0px 0px 1px;;
     backdrop-filter: blur(90px);
 }
@@ -44,6 +44,7 @@ body{
 }
 
 .login input {
+    position: absolute;
     width: 100%;
     height: 100%;
     border: 2px solid rgba(255, 255, 255, .2);
@@ -62,6 +63,7 @@ body{
     position: absolute;
     right: 20px;
     top: 50%;
+    color: black;
     transform: translateY(-50%);
     font-size: 20px;
 }
@@ -123,3 +125,30 @@ body{
 .registrar a:hover{
     text-decoration: underline;
 }
+
+.btn-whiteMode{
+    width: 30%;
+    height: 30px;
+    background-color: white;
+    border:none;
+    border-radius: 10px;
+    align-content:center;
+
+}
+
+.btn-whiteMode:hover{
+    width: 35%;
+}
+
+
+
+.white-mode{
+    background-image: url(assets/background.png);
+    cursor: pointer;
+}
+
+.white-mode .container{
+    border-color: whitesmoke;
+    background-color: darkblue;
+}
+
