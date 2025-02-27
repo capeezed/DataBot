@@ -54,13 +54,39 @@ body{
     height: 40px; 
     padding: 10px; 
     margin-top: 10px; 
+    margin: 8px 0;
     border: 1px solid rgba(255, 255, 255, .2);
-    border-radius: 10px;
+    border-radius: 40px;
     font-size: 16px;
     color: rgb(0, 0, 0);
     position: relative; 
     
     
+}
+
+
+.usuario i{
+    position: absolute;
+    right: 49px;
+    top: 22%;
+    color: black;
+    font-size: 20px;
+}
+
+.senha i{
+    position: absolute;
+    right: 49px;
+    top: 46%;
+    color: black;
+    font-size: 20px;
+}
+
+.senha2 i{
+    position: absolute;
+    right: 49px;
+    top: 58%;
+    color: black;
+    font-size: 20px;
 }
 
 .login2{
