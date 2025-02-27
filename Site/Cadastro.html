@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="StyleC.css">
 </head>
 <body>
+
+    <video autoplay loop muted playsinline preload="auto" class="background-video2">
+        <source src="assets/bg_video.mp4" type="video/mp4"> 
+    </video>
+
     <div class="container">
         <form class="form-box">
             <h1>Cadastro</h1>
@@ -22,8 +27,10 @@
             <div class="senha2">
                 <input type="password" placeholder="Confirme sua senha" required>
             </div>    
-                <button type="submit">Cadastrar</button>
-            <p>Já tem uma conta? <a href="Login.html">Login</a></p>
+                <button type="submit" class="btn-registrar">Cadastrar</button>
+            <div class="login2">
+                <p>Já tem uma conta? <a href="Login.html">Entrar</a></p>
+            </div>
         </form>
     </div>
 </body>
