@@ -73,6 +73,15 @@ body{
     font-size: 20px;
 }
 
+.senha2 input::placeholder,
+.senha input::placeholder,
+.email input::placeholder,
+.usuario input::placeholder{
+
+    color: black;
+
+}
+
 .senha i{
     position: absolute;
     right: 49px;
@@ -88,6 +97,15 @@ body{
     color: black;
     font-size: 20px;
 }
+
+.email i{
+    position: absolute;
+    right: 49px;
+    top: 34%;
+    color: black;
+    font-size: 20px;
+}
+
 
 .login2{
     font-size: 14px;

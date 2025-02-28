@@ -1,13 +1,3 @@
-//WhiteMode
-document.addEventListener("DOMContentLoaded", function (){
-    const whiteModeToggle = document.getElementById("whiteModeToggle")
-    whiteModeToggle.addEventListener("click", function(){
-        document.body.classList.toggle("white-mode")
-    })
-})
-
-
-
 //Mostrar Senha
 document.addEventListener("DOMContentLoaded", function(){
     const passwordInput = document.querySelector("input[type='password']")
